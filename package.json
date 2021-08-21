@@ -18,5 +18,13 @@
   "keywords": [],
   "author": "",
   "license": "CC BY 4.0",
-  "description": ""
+  "description": "the full multivault repo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oolonek/multivault_dendron.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oolonek/multivault_dendron/issues"
+  },
+  "homepage": "https://github.com/oolonek/multivault_dendron#readme"
 }
