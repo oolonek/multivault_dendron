@@ -48,7 +48,7 @@ site:
         action: useVault
         payload:
             - vault
-            - vault2
+           # - vault2
     config:
         root:
             publishByDefault:
