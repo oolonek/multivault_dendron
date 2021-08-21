@@ -12,6 +12,12 @@ jobs:
             - name: Checkout source
               uses: actions/checkout@v2
 
+              - name: Checkout public repo
+                uses: actions/checkout@v2
+                with:
+                  repository: oolonek/vault
+                  path: vault
+
             - name: Checkout private tools
               uses: actions/checkout@v2
               with:
