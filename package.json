@@ -9,12 +9,14 @@
     "@dendronhq/dendron-11ty": "^1.55.1",
     "@dendronhq/dendron-cli": "^0.55.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@dendronhq/dendron-cli": "*"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dendron-cli": "dendron-cli"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "CC BY 4.0",
   "description": ""
 }
