@@ -7,7 +7,7 @@ vaults:
         type: remote
         remote:
             type: git
-            url: 'https://github.com/dendronhq/sample-remote-vault.git'
+            url: 'https://github.com/oolonek/vault2.git'
     -
         fsPath: vault
         allowPublish: true
@@ -15,7 +15,7 @@ vaults:
         type: remote
         remote:
             type: git
-            url: 'https://github.com/dendronhq/sample-remote-vault.git'
+            url: 'https://github.com/oolonek/vault.git'
 useFMTitle: true
 useNoteTitleForLink: true
 noAutoCreateOnDefinition: true
