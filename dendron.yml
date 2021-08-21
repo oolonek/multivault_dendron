@@ -10,6 +10,12 @@ vaults:
             url: 'https://github.com/dendronhq/sample-remote-vault.git'
     -
         fsPath: vault
+        allowPublish: true
+        visibility: public
+        type: remote
+        remote:
+            type: git
+            url: 'https://github.com/dendronhq/sample-remote-vault.git'
 useFMTitle: true
 useNoteTitleForLink: true
 noAutoCreateOnDefinition: true
@@ -43,7 +49,7 @@ site:
     assetsPrefix: multivault_dendron
     gh_edit_link: true
     gh_edit_link_text: Click here to edit this page on Github !
-    gh_edit_repository: 'https://github.com/oolonek/vault'
+    # gh_edit_repository: 'https://github.com/oolonek/vault'
     usePrettyRefs: true
     title: Dendron
     description: Personal knowledge space
