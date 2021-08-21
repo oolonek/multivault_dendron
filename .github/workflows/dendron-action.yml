@@ -12,6 +12,12 @@ jobs:
             - name: Checkout source
               uses: actions/checkout@v2
 
+            - name: Checkout subrepos
+              uses: actions/checkout@v2
+              with:
+                repository: vault2
+                path: vault2
+
             - name: Install npm dependencies
               run: npm install
 
