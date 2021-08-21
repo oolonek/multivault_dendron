@@ -41,6 +41,9 @@ site:
     siteRootDir: docs
     siteUrl: https://oolonek.github.io
     assetsPrefix: multivault_dendron
+    gh_edit_link: true
+    gh_edit_link_text: Click here to edit this page on Github !
+    gh_edit_repository: 'https://github.com/oolonek/vault'
     usePrettyRefs: true
     title: Dendron
     description: Personal knowledge space
