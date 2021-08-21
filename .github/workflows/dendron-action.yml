@@ -15,7 +15,7 @@ jobs:
             - name: Checkout subrepos
               uses: actions/checkout@v2
               with:
-                repository: vault2
+                repository: oolonek/vault2
                 path: vault2
 
             - name: Install npm dependencies
