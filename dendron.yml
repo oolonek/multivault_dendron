@@ -46,7 +46,7 @@ site:
     config:
         root:
             publishByDefault:
-                vault: true
+                vault: false
                 vault2: false
         daily:
             publishByDefault: false
