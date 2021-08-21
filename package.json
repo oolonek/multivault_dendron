@@ -6,11 +6,10 @@
     "doc": "docs"
   },
   "dependencies": {
-    "@dendronhq/dendron-11ty": "^1.55.1",
-    "@dendronhq/dendron-cli": "^0.55.1"
+    "@dendronhq/dendron-11ty": "^1.55.1"
   },
   "devDependencies": {
-    "@dendronhq/dendron-cli": "*"
+    "@dendronhq/dendron-cli": "^0.55.1"
   },
   "scripts": {
     "dendron-cli": "dendron-cli"
