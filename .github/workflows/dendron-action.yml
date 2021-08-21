@@ -12,11 +12,12 @@ jobs:
             - name: Checkout source
               uses: actions/checkout@v2
 
-            - name: Checkout subrepos
+            - name: Checkout private tools
               uses: actions/checkout@v2
               with:
-                repository: oolonek/vault
-                path: vault
+                repository: oolonek/vault2
+                token: ${{ secrets.GitHub_PAT }} # `GitHub_PAT` is a secret that contains your PAT
+                path: vault2
 
             - name: Install npm dependencies
               run: npm install
