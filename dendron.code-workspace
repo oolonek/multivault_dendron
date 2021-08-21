@@ -5,9 +5,6 @@
         },
         {
             "path": "vault"
-        },
-        {
-            "path": "."
         }
     ],
     "settings": {
