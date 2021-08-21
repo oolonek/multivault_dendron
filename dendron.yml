@@ -3,6 +3,11 @@ vaults:
     -
         fsPath: vault2
         allowPublish: false
+        visibility: private
+        type: remote
+        remote:
+            type: git
+            url: 'https://github.com/dendronhq/sample-remote-vault.git'
     -
         fsPath: vault
 useFMTitle: true
